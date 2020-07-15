@@ -22,7 +22,8 @@ import React from 'react';
 class SearchForm extends React.Component {
     state = {
         showForm: false
-    }
+        
+     }
 
     toggleForm = () => {
         this.setState({ showForm: !this.state.showForm })
